@@ -1,0 +1,7 @@
+Terraform variables priority sorted by low to high
+
+environment vars
+terraform.tfvars
+*.auto.tfvars
+-var & -var-file  
+(e.g. terraform plan -var='additional_tags={TEAM="Production", PROJECT="tf-vars-production"}' )

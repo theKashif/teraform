@@ -1,0 +1,9 @@
+users:
+  - username: userEc2
+    roles: [AmazonEC2FullAccess]
+  - username: userS3
+    roles: [AmazonS3FullAccess]
+  - username: userVpc
+    roles: [AmazonVPCFullAccess]
+  - username: multi
+    roles: [AmazonEC2FullAccess, AmazonS3FullAccess, AmazonVPCFullAccess]
